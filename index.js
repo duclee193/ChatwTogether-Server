@@ -16,7 +16,7 @@ const jwt = require("jsonwebtoken");
 
 mongoose
   .connect(
-    "mongodb+srv://ducorgan2003:0948601613@cluster0-leducdev.dvnorhj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0-LeDucDevy",
+    "mongodb+srv://ducorgan2003:0948601613@cluster0-leducdev.dvnorhj.mongodb.net/chatapp?retryWrites=true&w=majority&appName=Cluster0-LeDucDevy",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
